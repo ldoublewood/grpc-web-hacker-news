@@ -27,7 +27,7 @@ export const listStories = () => {
       console.log(code, message, trailers);
       return;
     },
-    host: 'http://localhost:8900',
+    host: 'http://localhost:3000',
     methodDescriptor: HackerNewsService.ListStories,
     onMessage: message => {
       const story = message.getStory();

@@ -2,6 +2,7 @@
   "name": "app",
   "version": "0.1.0",
   "private": true,
+  "proxy":"http://localhost:8900",
   "dependencies": {
     "@types/semantic-ui": "^2.2.6",
     "google-protobuf": "^3.5.0",
